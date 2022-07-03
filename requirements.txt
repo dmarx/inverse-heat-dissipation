@@ -1,2 +1,6 @@
 numpy
 scipy
+
+# per B.1, main model architecture closely follows DDPM paper
+# library below is lucidrains' implementation
+denoising_diffusion_pytorch
