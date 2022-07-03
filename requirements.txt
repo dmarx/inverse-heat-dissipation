@@ -1,6 +1,16 @@
+einops
+loguru
 numpy
+pillow
 scipy
+torch
+torchvision
+tqdm
 
-# per B.1, main model architecture closely follows DDPM paper
-# library below is lucidrains' implementation
-denoising_diffusion_pytorch
+## lucidrains helpers ##
+
+ema-pytorch
+denoising_diffusion_pytorch # per B.1, main model architecture closely follows DDPM paper
+
+# Might be easier to specify the unet with this, but is WIP
+x-unet
